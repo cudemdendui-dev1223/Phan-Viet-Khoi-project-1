@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân - Nguyễn Công Huy</title>
+    <!-- Nhúng Google Font Inter cho giao diện hiện đại -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+
+    <!-- Thanh điều hướng (Header) -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">HuyCongNguyen<span>Dev.</span></a>
+            <nav class="nav-links">
+                <a href="#about">Giới thiệu</a>
+                <a href="#skills">Kỹ năng</a>
+                <a href="#schools">Học vấn</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Phần mở đầu (Hero Section) -->
+
+    <!-- Phần Giới thiệu & Học vấn (About) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <!-- Đặt thẻ img lên đầu để float: right nằm ngang hàng với "Xin chào..." -->
+            <img src="conghuylogo.jpg" alt="Ảnh đại diện" class="avatar-float">
+
+            <p class="greeting">Xin chào, mình là</p>
+            <h1>Nguyễn Công Huy</h1>
+
+            <p class="bio">
+                Mình đam mê xây dựng giao diện web trực quan, tối ưu trải nghiệm người dùng và giải quyết các bài toán
+                thuật toán.
+            </p>
+            <p class="gioithieu">Mình đang học lớp 66K2 - ngành công nghệ thông tin trường Đại học Vinh</p>
+
+            <div class="hero-buttons">
+                <a href="#habits" class="btn btn-primary">Xem sở thích</a>
+                <a href="#contact" class="btn btn-outline">Liên hệ ngay</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Phần Kỹ năng (Skills) -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Kỹ năng chuyên môn</h2>
+            <div class="skills-list">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">C / C++</span>
+                <span class="skill-tag">Figma (UI/UX)</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">Responsive Design</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Dự án tiêu biểu (Projects) -->
+    <section id="habits" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">SỞ THÍCH CỦA MÌNH</h2>
+            <div class="projects-grid">
+
+                <!-- Dự án 1 -->
+                <article class="project-card hello-1">
+                    <div class="project-content">
+                        <h3>Thể thao</h3>
+                        <p>Tập để nâng cao sức khỏe</p>
+                        <div class="project-tech">
+                            <span>Cầu lông</span>
+                            <span>Bóng chuyền</span>
+                            <span>Bóng đá</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Dự án 2 -->
+                <article class="project-card hello-2">
+                    <div class="project-content">
+                        <h3>Game</h3>
+                        <p>Giải trí sau mỗi giờ học căng thẳng cùng với bạn bè.</p>
+                        <div class="project-tech">
+                            <span>Free Fire</span>
+                            <span>Liên quân</span>
+                            <span>Bắn cá</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Dự án 3 -->
+                <article class="project-card hello-3">
+                    <div class="project-content">
+                        <h3>Ăn uống</h3>
+                        <p>Giao diện quảng bá sản phẩm với hiệu ứng chuyển động mượt mà, bố cục Flexbox và Grid hiện
+                            đại.</p>
+                        <div class="project-tech">
+                            <span>Mỳ cay</span>
+                            <span>Gà rán</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Xem Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Liên hệ (Contact) -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title">Liên hệ với mình</h2>
+            <p class="contact-desc">Nếu bạn muốn trao đổi về công việc, dự án hoặc học tập, đừng ngần ngại nhắn tin cho
+                mình nhé!</p>
+
+            <div class="contact-info">
+                <p class="para"><strong>Email:</strong> phongnguyendinh1202@gmail.com</p>
+                <p class="para"><strong>Điện thoại:</strong> 0368948875</p>
+            </div>
+
+            <form class="contact-form" action="#" method="POST">
+                <input type="text" placeholder="Tên của bạn" required>
+                <input type="email" placeholder="Email của bạn" required>
+                <textarea rows="4" placeholder="Nội dung lời nhắn..." required></textarea>
+                <button type="submit" class="btn btn-primary">Gửi lời nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Chân trang (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nguyễn Công Huy. Thiết kế & Lập trình bằng HTML/CSS.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
