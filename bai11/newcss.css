@@ -1,0 +1,40 @@
+.section-one {
+    background: #ddd;
+    position: sticky;
+    top: 0;
+}
+.head-1 {
+    display: flex;
+    align-items: center;
+}
+.section-one {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.section-one .head-3 i {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.main {
+    align-items: center;
+}
+.head {
+    margin-right:80px;
+}
+.section-two {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 40px;
+    background: grey;
+}
+.input {
+    border-radius: 5px;
+}
+.two-input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section-two .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
